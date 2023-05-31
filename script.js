@@ -2,6 +2,13 @@
 let mois = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet'];
 document.write(mois + `<br>`+ `<br>`)
 
+
+/*
+// retirer la premier valeur du tableau.
+mois.shift();
+*/
+
+
 // retirer la dernier valeur du tableau.
 mois.pop();
 
