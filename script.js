@@ -6,7 +6,9 @@ document.write(mois + `<br>`+ `<br>`)
 mois.pop();
 
 // afficher les valeur du tableau avec document.write.
-document.write(mois + `<br>`+ `<br>`);
+for(let i of mois){
+    document.write(i + `<br>`+ `<br>`);
+}
 
 // ajouter la valeur aout. 
 mois.push('aout');
